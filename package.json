@@ -15,11 +15,15 @@
   },
   "dependencies": {
     "gatsby": "^3.2.1",
+    "gatsby-plugin-goober": "^2.4.0",
+    "goober": "^2.0.37",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "tailwindcss": "^2.1.1",
+    "twin.macro": "^2.3.2"
   },
   "repository": {
     "type": "git",
@@ -27,5 +31,10 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "goober"
+    }
   }
 }
